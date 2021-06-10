@@ -1,0 +1,31 @@
+{
+  "name": "inc-cmpts-demo",
+  "version": "1.0.0",
+  "description": "React components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.min.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "father build",
+    "doc:dev": "father doc dev",
+    "doc:build": "father doc build",
+    "doc:deploy": "gh-pages -d docs-dist",
+    "test": "father test"
+  },
+  "homepage": "https://fuyi0115.github.io/inc-cmpts-demo",
+  "author": {
+    "name": "fuyi0115",
+    "email": "fuyi0115@xxx.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "father": "^2.30.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  }
+}
