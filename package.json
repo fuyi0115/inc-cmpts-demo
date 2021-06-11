@@ -10,7 +10,7 @@
     "build": "father build",
     "doc:dev": "father doc dev",
     "doc:build": "father doc build",
-    "doc:deploy": "gh-pages -d docs-dist",
+    "doc:deploy": "gh-pages -d .doc",
     "test": "father test"
   },
   "homepage": "https://fuyi0115.github.io/inc-cmpts-demo",
